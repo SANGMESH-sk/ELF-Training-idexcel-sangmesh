@@ -1,0 +1,16 @@
+img{
+    width: 278px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    transition: all 2s;
+}
+h1{
+    text-align: center;
+    color: blue;
+}
+img:hover{
+    transform: scale(1.2,1.2);
+    transform: rotateX(360deg); 
+}
